@@ -75,7 +75,6 @@ namespace WindowsFormsApplication1
             cmd.ExecuteNonQuery();
             cnx.Close();
         }
-
         private void btnSelect_Click(object sender, EventArgs e)
         {
             cnx.Open();
